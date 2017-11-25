@@ -3,6 +3,19 @@ p {
   font-family: "Arial";
 }
 
+table {
+  font-family: "Georgia";
+}
+
+th {
+  font-size: 1em;
+  font-family: "Georgia";
+}
+
+td {
+  font-family: "Arial";
+}
+
 h1, h2, h3 {
   text-align: center;
   font-family: "Georgia";

@@ -1,23 +1,48 @@
 ---
   title: "Contact Me"
+  output:
+    html_document:
+      toc: FALSE
 ---
+<!-- Tried to keep this page clean and light, hence only having the buttons and twitter feed. --> 
 
-# Email
+<center>
+<a href="mailto:lai.rebecca.j@gmail.com">
+  <img src="images/envgrey.png"
+    onmouseover="this.src='images/envpink.png';"
+    onmouseout="this.src='images/envgrey.png';" alt="e-mail logo" style="margin: 20px 20px;">
+</a>
+<a href="https://www.linkedin.com/in/rjlai/">
+  <img src="images/ingrey.png"
+    onmouseover="this.src='images/inpink.png';"
+    onmouseout="this.src='images/ingrey.png';" alt="LinkedIn logo" style="margin: 20px 20px;">
+</a>
+<a href="https://github.com/RebeccaJLai">
+  <img src="images/gitgrey.png"
+    onmouseover="this.src='images/gitpink.png';"
+    onmouseout="this.src='images/gitgrey.png';" alt="ORCHiD logo" style="margin: 20px 20px;">
+</a>
+<a href="https://twitter.com/_R_Lai_">
+  <img src="images/twigrey.png"
+    onmouseover="this.src='images/twipink.png';"
+    onmouseout="this.src='images/twigrey.png';" alt="ORCHiD logo" style="margin: 20px 20px;">
+</a>
+<a href="https://orcid.org/0000-0001-7055-2036">
+  <img src="images/orcgrey.png"
+    onmouseover="this.src='images/orcpink.png';"
+    onmouseout="this.src='images/orcgrey.png';" alt="ORCHiD logo" style="margin: 20px 20px;">
+</a>
+<a href="https://www.researchgate.net/profile/Rebecca_Lai4">
+  <img src="images/rggrey.png"
+    onmouseover="this.src='images/rgpink.png';"
+    onmouseout="this.src='images/rggrey.png';" alt="ResearchGate logo" style="margin: 20px 20px;">
+</a>
 
-[Constant e-mail: lai.rebecca.j@gmail.com](mailto:lai.rebecca.j@gmail.com)
+<!-- there's another link I wanted to put in above, but I can't remember what it is! --> 
 
-[Institutional e-mail: 2087153l@student.gla.ac.uk](mailto:2087153l@student.gla.ac.uk)
-
-# Professional Profiles
-
-[LinkedIn](https://www.linkedin.com/in/rjlai/)
-
-[Github](https://github.com/RebeccaJLai)
-
-[OrchID](https://orcid.org/0000-0001-7055-2036)
-
-# Twitter
-
-<a class="twitter-timeline" href="https://twitter.com/_R_Lai_?ref_src=twsrc%5Etfw">
+<a class="twitter-timeline" width="600px" height="1000px" href="https://twitter.com/_R_Lai_?ref_src=twsrc%5Etfw">
 </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
+<font size="0.5"> Github icon button based on one adapted from the work of [Simpleicon](https://www.flaticon.com/packs/simpleicon-social-media/2) and other icon buttons based on/adapted from [Elegant Themes](https://www.flaticon.com/packs/elegant-font) under a [Creative Commons (CC 3.0)](https://creativecommons.org/licenses/by/3.0/) license. Researchgate logo button made by me.</font>
+
+</center>
