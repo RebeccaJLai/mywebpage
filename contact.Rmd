@@ -1,23 +1,42 @@
 ---
   title: "Contact Me"
+  output:
+    html_document:
+      toc: FALSE
 ---
+<html>
+<center>
+<a href="mailto:lai.rebecca.j@gmail.com">
+  <img src="images/envgrey.png"
+    onmouseover="this.src='images/envpink.png';"
+    onmouseout="this.src='images/envgrey.png';" alt="e-mail logo" style="margin: 20px 20px;">
+</a>
+<a href="https://www.linkedin.com/in/rjlai/">
+  <img src="images/ingrey.png"
+    onmouseover="this.src='images/inpink.png';"
+    onmouseout="this.src='images/ingrey.png';" alt="LinkedIn logo" style="margin: 20px 20px;">
+</a>
+<a href="https://github.com/RebeccaJLai">
+  <img src="images/gitgrey.png"
+    onmouseover="this.src='images/gitpink.png';"
+    onmouseout="this.src='images/gitgrey.png';" alt="ORCHiD logo" style="margin: 20px 20px;">
+</a>
+<a href="https://twitter.com/_R_Lai_">
+  <img src="images/twigrey.png"
+    onmouseover="this.src='images/twipink.png';"
+    onmouseout="this.src='images/twigrey.png';" alt="ORCHiD logo" style="margin: 20px 20px;">
+</a>
+<a href="https://orcid.org/0000-0001-7055-2036">
+  <img src="images/orcgrey.png"
+    onmouseover="this.src='images/orcpink.png';"
+    onmouseout="this.src='images/orcgrey.png';" alt="ORCHiD logo" style="margin: 20px 20px;">
+</a>
 
-# Email
-
-[Constant e-mail: lai.rebecca.j@gmail.com](mailto:lai.rebecca.j@gmail.com)
-
-[Institutional e-mail: 2087153l@student.gla.ac.uk](mailto:2087153l@student.gla.ac.uk)
-
-# Professional Profiles
-
-[LinkedIn](https://www.linkedin.com/in/rjlai/)
-
-[Github](https://github.com/RebeccaJLai)
-
-[OrchID](https://orcid.org/0000-0001-7055-2036)
-
-# Twitter
+</center>
 
 <a class="twitter-timeline" href="https://twitter.com/_R_Lai_?ref_src=twsrc%5Etfw">
 </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
+</html>
+
+Github icon based on one adapted from the work of [Simpleicon](https://www.flaticon.com/packs/simpleicon-social-media/2). Other icons based on/from [Elegant Themes](https://www.flaticon.com/packs/elegant-font).

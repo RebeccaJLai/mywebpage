@@ -26,7 +26,10 @@ Skill/Software                  |Details
 [MorphAnalyser](http://cherry.dcs.aber.ac.uk:8080/wiki/MorphAnalyser)|Delineation of 3-dimensional facial images.
 [PRAAT](http://www.fon.hum.uva.nl/praat/)|Editing of audio clips. More incoming. 
 
-<img src="images/female_faces.gif" alt="Female face transformations" hspace="30" style="border:5px solid black;">
+<center>
+<img src="images/female_faces.gif" alt="Female face transformations" style="border:5px solid black;margin: 10px 10px;">
+<img src="images/male_faces.gif" alt="Female face transformations" style="border:5px solid black;margin: 10px 10px;">
+</center>
 
 # Professional Memberships
 
