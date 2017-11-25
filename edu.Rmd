@@ -1,15 +1,13 @@
 ---
   title: "Education and Skills"
 ---
-## Education
+# Education
 
-### MSc Research Methods of Psychological Science
+## MSc Research Methods of Psychological Science
 
 In progress, due for completion August/September 2018. Supervised by [Dr Lisa M. DeBruine](http://facelab.org/People/debruine) ([Professor Ben C. Jones](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/benjones/) as second supervisor).
 
-### Psychology MA(SocSci) Hons, First Class
-
-<img src="images/thinking guys.png" alt="Some Emojis" hspace="30" style="float:right;border:5px solid black;">
+## Psychology MA(SocSci) Hons, First Class
 
 I graduated from the University of Glasgow in Autumn of 2017 with a first class single honours degree in psychology, supervised by [Dr Dale J. Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/dalebarr/). 
 
@@ -17,7 +15,7 @@ My final year project was an investigation into how emojis might impact egocentr
 
 I was joint recipient of The Pickford Prize for Social Psychology for the class of 2017.
 
-## Training and Skill Development
+# Training and Skill Development
 
 **Continuing development plans**: More training opportunities and suggestions would be gratefully received. I would be particularly interested in gaining teaching experience. MATLAB training will commence next semester, which I am particularly looking forward to as it might be a tool I can use in the future for voice tranformations using [STRAIGHT](http://www.wakayama-u.ac.jp/~kawahara/STRAIGHTadv/index_e.html).
 
@@ -30,7 +28,7 @@ Skill/Software                  |Details
 
 <img src="images/female_faces.gif" alt="Female face transformations" hspace="30" style="border:5px solid black;">
 
-## Professional Memberships
+# Professional Memberships
 
 Date(s)                         |Organisation
 --------------------------------|---------------------------------------------------------
@@ -38,9 +36,9 @@ Date(s)                         |Organisation
 2017-present	                  |British Psychological Society, graduate member.
 
 
-## Extra Curriculars
+# Extra Curriculars
 
-**Continuing development plans**: I am currently awaiting word for training on becoming a peer supporter through the university counselling services. I am also awaiting the inpatient wing of [Kilbryde Hospice](http://kilbrydehospice.org.uk/) to resume volunteering.
+**Continuing development plans**: I am currently awaiting word for training on becoming a peer supporter through the university counselling services. I am also awaiting the opening of the inpatient wing of [Kilbryde Hospice](http://kilbrydehospice.org.uk/) to resume volunteering.
 
 Date(s)                         |Organisation/Role
 --------------------------------|-----------------------------------------------------

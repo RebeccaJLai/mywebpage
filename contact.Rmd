@@ -1,3 +1,23 @@
 ---
-  title: "Contact"
+  title: "Contact Me"
 ---
+
+# Email
+
+[Constant e-mail: lai.rebecca.j@gmail.com](mailto:lai.rebecca.j@gmail.com)
+
+[Institutional e-mail: 2087153l@student.gla.ac.uk](mailto:2087153l@student.gla.ac.uk)
+
+# Professional Profiles
+
+[LinkedIn](https://www.linkedin.com/in/rjlai/)
+
+[Github](https://github.com/RebeccaJLai)
+
+[OrchID](https://orcid.org/0000-0001-7055-2036)
+
+# Twitter
+
+<a class="twitter-timeline" href="https://twitter.com/_R_Lai_?ref_src=twsrc%5Etfw">
+</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+

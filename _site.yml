@@ -2,12 +2,13 @@ name: "Professional Skills: Web Page"
 author: "Rebecca J Lai"  
 output_dir: "docs"  
 output:  
-  html_document:  
-    self_contained: FALSE
+  html_document: 
+    theme: simplex   
+    css: style.css
     toc: TRUE
     toc_depth: 3
     toc_float: TRUE
-theme: flatly  
+    self_contained: FALSE
 navbar:  
   title: "Rebecca J. Lai"
   right:
@@ -17,4 +18,4 @@ navbar:
       href: edu.html
     - text: "Contact Me"
       href: contact.html
-    
+
