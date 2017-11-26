@@ -17,7 +17,6 @@ My final year project was an investigation into how emojis might impact egocentr
 
 I was joint recipient of The Pickford Prize for Social Psychology for the class of 2017.
 
-
 # Training and Skills
 
 **Continuing development plans**: More training opportunities and suggestions would be gratefully received. I would be particularly interested in gaining teaching experience. 
@@ -37,14 +36,12 @@ Skill/Software                  |Details
 <img src="images/mal_fem.gif" alt="Male face transformations" style="border:5px solid black;margin: 20px 15px;">
 </center>
 
-
 # Professional Memberships
 
 Date(s)                         |Organisation
 --------------------------------|---------------------------------------------------------
 2014-2017	                      |British Psychological Society, student member.
 2017-present	                  |British Psychological Society, graduate member.
-
 
 # Extra Curriculars
 
@@ -55,4 +52,3 @@ Date(s)                         |Organisation/Role
 29-9-2017                       |European Researchers' Night: Volunteer at Explorathon Extravaganza at the Riverside Museum in Glasgow. 
 2014-2015                       |GU Mature Students Association: Executive committee member (Treasurer).
 2013-2014                       |GU Mature Students Association: Ordinary committee member (memberships and facilities).
-

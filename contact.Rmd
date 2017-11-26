@@ -10,32 +10,32 @@
 <a href="mailto:lai.rebecca.j@gmail.com">
   <img src="images/envgrey.png"
     onmouseover="this.src='images/envpink.png';"
-    onmouseout="this.src='images/envgrey.png';" alt="e-mail logo" style="margin: 20px 20px;">
+    onmouseout="this.src='images/envgrey.png';" alt="e-mail logo" style="margin: 20px 15px;">
 </a>
 <a href="https://www.linkedin.com/in/rjlai/">
   <img src="images/ingrey.png"
     onmouseover="this.src='images/inpink.png';"
-    onmouseout="this.src='images/ingrey.png';" alt="LinkedIn logo" style="margin: 20px 20px;">
+    onmouseout="this.src='images/ingrey.png';" alt="LinkedIn logo" style="margin: 20px 15px;">
 </a>
 <a href="https://github.com/RebeccaJLai">
   <img src="images/gitgrey.png"
     onmouseover="this.src='images/gitpink.png';"
-    onmouseout="this.src='images/gitgrey.png';" alt="ORCHiD logo" style="margin: 20px 20px;">
+    onmouseout="this.src='images/gitgrey.png';" alt="ORCHiD logo" style="margin: 20px 15px;">
 </a>
 <a href="https://twitter.com/_R_Lai_">
   <img src="images/twigrey.png"
     onmouseover="this.src='images/twipink.png';"
-    onmouseout="this.src='images/twigrey.png';" alt="ORCHiD logo" style="margin: 20px 20px;">
+    onmouseout="this.src='images/twigrey.png';" alt="ORCHiD logo" style="margin: 20px 15px;">
 </a>
 <a href="https://orcid.org/0000-0001-7055-2036">
   <img src="images/orcgrey.png"
     onmouseover="this.src='images/orcpink.png';"
-    onmouseout="this.src='images/orcgrey.png';" alt="ORCHiD logo" style="margin: 20px 20px;">
+    onmouseout="this.src='images/orcgrey.png';" alt="ORCHiD logo" style="margin: 20px 15px;">
 </a>
 <a href="https://www.researchgate.net/profile/Rebecca_Lai4">
   <img src="images/rggrey.png"
     onmouseover="this.src='images/rgpink.png';"
-    onmouseout="this.src='images/rggrey.png';" alt="ResearchGate logo" style="margin: 20px 20px;">
+    onmouseout="this.src='images/rggrey.png';" alt="ResearchGate logo" style="margin: 20px 15px;">
 </a>
 
 <!-- there's another link I wanted to put in above, but I can't remember what it is! --> 
