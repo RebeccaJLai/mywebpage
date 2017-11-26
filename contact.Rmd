@@ -43,6 +43,6 @@
 <a class="twitter-timeline" width="600px" height="1000px" href="https://twitter.com/_R_Lai_?ref_src=twsrc%5Etfw">
 </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-<font size="0.5"> Github icon button based on one adapted from the work of [Simpleicon](https://www.flaticon.com/packs/simpleicon-social-media/2) and other icon buttons based on/adapted from [Elegant Themes](https://www.flaticon.com/packs/elegant-font) under a [Creative Commons (CC 3.0)](https://creativecommons.org/licenses/by/3.0/) license. Researchgate logo button made by me.</font>
+<font size="0.5"> Github icon button based on one adapted from the work of [Simpleicon](https://www.flaticon.com/packs/simpleicon-social-media/2) and other icon buttons based on/adapted from [Elegant Themes](https://www.flaticon.com/packs/elegant-font) under a [Creative Commons (CC 3.0)](https://creativecommons.org/licenses/by/3.0/) license. ResearchGate logo button made by me. All graphics edited in [GIMP](https://www.gimp.org/).</font>
 
 </center>

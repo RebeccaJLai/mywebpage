@@ -52,3 +52,5 @@ Date(s)                         |Organisation/Role
 29-9-2017                       |European Researchers' Night: Volunteer at Explorathon Extravaganza at the Riverside Museum in Glasgow. 
 2014-2015                       |GU Mature Students Association: Executive committee member (Treasurer).
 2013-2014                       |GU Mature Students Association: Ordinary committee member (memberships and facilities).
+
+<font size="0.5"> Facial morphs created using [WebMorph](http://webmorph.org/). All faces featured are composite images and any resemblance to actual persons are coincidental. </font>
