@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -23,8 +23,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -33,10 +33,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -284,6 +286,9 @@ div.tocify {
   <a href="edu.html">Education and Skills</a>
 </li>
 <li>
+  <a href="pubs.html">Professional Activity</a>
+</li>
+<li>
   <a href="contact.html">Contact Me</a>
 </li>
       </ul>
@@ -305,7 +310,7 @@ div.tocify {
 <!-- essentially an adaptation of my academic CV, but less formal -->
 <div id="msc-research-methods-of-psychological-science" class="section level2">
 <h2>MSc Research Methods of Psychological Science</h2>
-<p>In progress, due for completion August/September 2018. Supervised by <a href="http://facelab.org/People/debruine">Dr Lisa M. DeBruine</a> (<a href="https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/benjones/">Professor Ben C. Jones</a> as second supervisor).</p>
+<p>In progress, due for completion August/September 2018. Supervised by <a href="http://facelab.org/People/debruine">Professor Lisa M. DeBruine</a> (<a href="https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/benjones/">Professor Ben C. Jones</a> as second supervisor).</p>
 </div>
 <div id="psychology-masocsci-hons-first-class" class="section level2">
 <h2>Psychology MA(SocSci) Hons, First Class</h2>
@@ -316,12 +321,12 @@ div.tocify {
 </div>
 <div id="training-and-skills" class="section level1">
 <h1>Training and Skills</h1>
-<p><strong>Continuing development plans</strong>: More training opportunities and suggestions would be gratefully received. I would be particularly interested in gaining teaching experience.</p>
-<p>MATLAB training will commence next semester, which I am particularly looking forward to as it might be a tool I can use in the future for voice tranformations using <a href="http://www.wakayama-u.ac.jp/~kawahara/STRAIGHTadv/index_e.html">STRAIGHT</a>.</p>
+<p><strong>Continuing development plans</strong>: More training opportunities and suggestions would be gratefully received. I am currently seeking PhD opporunities, with a focus on gaining teaching and mentoring experience simultaneously.</p>
+<p>I woould also be interested in learning how to write Praat scripts and gaining more experience with Shiny web apps.</p>
 <table>
 <colgroup>
-<col width="37%" />
-<col width="62%" />
+<col width="19%" />
+<col width="80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -332,7 +337,7 @@ div.tocify {
 <tbody>
 <tr class="odd">
 <td><a href="www.R-project.org">R</a></td>
-<td>Advanced Statistics (GLM, LMEMs, Monte Carlo Simulation, permutation tests) and document creation and publication (web pages, PDF documents, etc.).</td>
+<td>Advanced Statistics (GLM, GLMM, LMEMs, GLMEMs, signal detection analyses, Bayesian analyses, Monte Carlo Simulation, permutation tests), Shiny web apps and document creation and publication (web pages, PDF documents, etc.).</td>
 </tr>
 <tr class="even">
 <td><a href="http://webmorph.org/">WebMorph</a></td>
@@ -343,43 +348,33 @@ div.tocify {
 <td>Delineation of 3-dimensional facial images.</td>
 </tr>
 <tr class="even">
-<td><a href="http://www.fon.hum.uva.nl/praat/">PRAAT</a></td>
-<td>Editing of audio clips. More incoming.</td>
+<td><a href="http://www.fon.hum.uva.nl/praat/">Praat</a></td>
+<td>Editing audio clips and pitch and formant extraction.</td>
+</tr>
+<tr class="odd">
+<td><a href="https://uk.mathworks.com/products/matlab.html">Matlab</a></td>
+<td>Introductory Matlab course as part of MSc.</td>
 </tr>
 </tbody>
 </table>
+<div id="examples" class="section level2">
+<h2>Examples</h2>
+<iframe src="https://rjlai.shinyapps.io/rm_coursework/" width="810" height="1150" frameborder="0" display:block>
+<p>
+<a href="https://rjlai.shinyapps.io/rm_coursework/"> Link to Signal Detection Calculator for browsers that do not support iframes. </a>
+</p>
+</iframe>
 <center>
-<img src="images/female_faces.gif" alt="Female face transformations" style="border:5px solid black;margin: 20px 15px;"> <img src="images/male_faces.gif" alt="Male face transformations" style="border:5px solid black;margin: 20px 15px;"> <img src="images/mal_fem.gif" alt="Male face transformations" style="border:5px solid black;margin: 20px 15px;">
+<img src="images/female_faces.gif" alt="Female face transformations" style="border:5px solid black;margin: 20px 15px;"> <img src="images/male_faces.gif" alt="Male face transformations" style="border:5px solid black;margin: 20px 15px;"> <img src="images/mal_fem.gif" alt="Male face transformations" style="border:5px solid black;margin: 20px 15px;"> <font size="0.05"> Facial morphs created using <a href="http://webmorph.org/">WebMorph</a>. All faces featured are composite images and any resemblance to actual persons are coincidental. </font>
 </center>
 </div>
-<div id="professional-memberships" class="section level1">
-<h1>Professional Memberships</h1>
-<table>
-<thead>
-<tr class="header">
-<th>Date(s)</th>
-<th>Organisation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>2014-2017</td>
-<td>British Psychological Society, student member.</td>
-</tr>
-<tr class="even">
-<td>2017-present</td>
-<td>British Psychological Society, graduate member.</td>
-</tr>
-</tbody>
-</table>
 </div>
 <div id="extra-curriculars" class="section level1">
 <h1>Extra Curriculars</h1>
-<p><strong>Continuing development plans</strong>: I am currently awaiting word for training on becoming a peer supporter through the university counselling services. I am also awaiting the opening of the inpatient wing of <a href="http://kilbrydehospice.org.uk/">Kilbryde Hospice</a> to resume volunteering.</p>
 <table>
 <colgroup>
-<col width="37%" />
-<col width="62%" />
+<col width="16%" />
+<col width="83%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -402,7 +397,6 @@ div.tocify {
 </tr>
 </tbody>
 </table>
-<p><font size="0.5"> Facial morphs created using <a href="http://webmorph.org/">WebMorph</a>. All faces featured are composite images and any resemblance to actual persons are coincidental. </font></p>
 </div>
 
 
@@ -430,7 +424,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

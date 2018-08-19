@@ -11,7 +11,7 @@
 
 
 
-<title>About Me</title>
+<title>Professional Activity</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -164,6 +167,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -202,31 +300,68 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About Me</h1>
+<h1 class="title toc-ignore">Professional Activity</h1>
 
 </div>
 
 
-<!-- No need for a TOC here YET... left in the .css because I might bring it back in in the future -->
-<p>I am currently an MSc student in the University of Glasgow’s <a href="http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/">Institute of Neuroscience and Psychology</a>. I work withing the Facelab supervised by <a href="http://facelab.org/People/debruine">Professor Lisa M. DeBruine</a>.</p>
-<p><img src="images/meface.png" alt="Me Face" style="float:right;border:5px solid black;margin: 20px 20px;"></p>
-<!-- I MAY have modelled the colour scheme around my hair colour... -->
-<p>I was an adult returner to education, and as such I have an interest in and adult education and accessibility issues surrounding education. I eventually would like to get a job in research with teaching responsibilities.</p>
-<div id="current-project" class="section level1">
-<h1>Current Project</h1>
-<p>My current research project is based upon work done by Maloney and Dal Martello’s (2006) paper <em>“Kin recognition and the perceived facial similarity of children”</em>, but working with voice stimuli instead of place of visual.</p>
-<p>Previous work has been able to determine that we can reap a great deal of information from the voice, being able to recognise individuals from their voices and making social judgements from short voice recordings. This piece of work aims to identify if siblings can be distinguished from non-siblings based on voice recordings.</p>
+<div id="conference-and-workshop-presentations" class="section level1">
+<h1>Conference and Workshop Presentations</h1>
+<table>
+<colgroup>
+<col width="32%" />
+<col width="67%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Event</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>HBES, July 2018, Amsterdam.</td>
+<td>Poster: <a href="images/hbes_2018_poster_kinvoice.jpg">“Exploring the potential for kinship signalling in the human voice”</a>.</td>
+</tr>
+<tr class="even">
+<td>TRDAiR, March 2018, Glasgow.</td>
+<td>Talk: <a href="https://gupsych.github.io/trdair_workshop/">Student Perspectives- “What Can Students Gain by Switching to R?”</a></td>
+</tr>
+</tbody>
+</table>
+<center>
+<p><img src="images/hbes_2018_poster_kinvoice.jpg" alt="HBES 2018 poster presentation." width = "50%" style="border:5px solid black;margin: 20px 15px;"> </centre></p>
 </div>
-<div id="research-interests" class="section level1">
-<h1>Research Interests</h1>
-<p>I originally came to the Kinship Project with the hope of studying what usable social information we might be able to glean from the face and how this might or might not influence social behaviours such as mate choice, altruism, spite, aggression and dominance.</p>
-<p>This is still something that I am very much interested in, however I realise the importance of examining multiple modalities and how they might interact to influence our perception and behaviour towards others.</p>
-<p>I have also attempted to widen my study of research methods, with the hope that one day I might become a methodologically flexible reasearcher.</p>
-<p>My choice of supervisor (current and as an undergraduate) has been deliberately aimed at those with strong commitment to open science, transparency and responsible research.</p>
+<div id="professional-memberships" class="section level1">
+<h1>Professional Memberships</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Date(s)</th>
+<th>Organisation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2014-2017</td>
+<td>British Psychological Society, student member.</td>
+</tr>
+<tr class="even">
+<td>2017-present</td>
+<td>British Psychological Society, graduate member.</td>
+</tr>
+<tr class="odd">
+<td>2018-present.</td>
+<td>Human Behaviour and Evolution Society, student member.</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 

@@ -7,7 +7,7 @@
 
 ## MSc Research Methods of Psychological Science
 
-In progress, due for completion August/September 2018. Supervised by [Dr Lisa M. DeBruine](http://facelab.org/People/debruine) ([Professor Ben C. Jones](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/benjones/) as second supervisor).
+In progress, due for completion August/September 2018. Supervised by [Professor Lisa M. DeBruine](http://facelab.org/People/debruine) ([Professor Ben C. Jones](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/benjones/) as second supervisor).
 
 ## Psychology MA(SocSci) Hons, First Class
 
@@ -19,38 +19,39 @@ I was joint recipient of The Pickford Prize for Social Psychology for the class 
 
 # Training and Skills
 
-**Continuing development plans**: More training opportunities and suggestions would be gratefully received. I would be particularly interested in gaining teaching experience. 
+**Continuing development plans**: More training opportunities and suggestions would be gratefully received. I am currently seeking PhD opporunities, with a focus on gaining teaching and mentoring experience simultaneously. 
 
-MATLAB training will commence next semester, which I am particularly looking forward to as it might be a tool I can use in the future for voice tranformations using [STRAIGHT](http://www.wakayama-u.ac.jp/~kawahara/STRAIGHTadv/index_e.html).
+I woould also be interested in learning how to write Praat scripts and gaining more experience with Shiny web apps.
 
-Skill/Software                  |Details
---------------------------------|-----------------------------------------------------
-[R](www.R-project.org)          |Advanced Statistics (GLM, LMEMs, Monte Carlo Simulation, permutation tests) and document creation and publication (web pages, PDF documents, etc.).
+Skill/Software  |Details
+----------------|-----------------------------------------------------------------------
+[R](www.R-project.org)          |Advanced Statistics (GLM, GLMM, LMEMs, GLMEMs, signal detection analyses, Bayesian analyses, Monte Carlo Simulation, permutation tests), Shiny web apps and document creation and publication (web pages, PDF documents, etc.).
 [WebMorph](http://webmorph.org/)|Delineation and manipulation of 2-dimensional facial images.
 [MorphAnalyser](http://cherry.dcs.aber.ac.uk:8080/wiki/MorphAnalyser)|Delineation of 3-dimensional facial images.
-[PRAAT](http://www.fon.hum.uva.nl/praat/)|Editing of audio clips. More incoming. 
+[Praat](http://www.fon.hum.uva.nl/praat/)|Editing audio clips and pitch and formant extraction. 
+[Matlab](https://uk.mathworks.com/products/matlab.html)|Introductory Matlab course as part of MSc.
+
+## Examples 
+
+<iframe src = "https://rjlai.shinyapps.io/rm_coursework/" width = "810" height = "1150" frameborder = "0" display:block>
+<p> <a href="https://rjlai.shinyapps.io/rm_coursework/">
+    Link to Signal Detection Calculator for browsers that do not support iframes.
+  </a> </p>
+</iframe>
 
 <center>
 <img src="images/female_faces.gif" alt="Female face transformations" style="border:5px solid black;margin: 20px 15px;">
 <img src="images/male_faces.gif" alt="Male face transformations" style="border:5px solid black;margin: 20px 15px;">
 <img src="images/mal_fem.gif" alt="Male face transformations" style="border:5px solid black;margin: 20px 15px;">
+<font size="0.05"> Facial morphs created using [WebMorph](http://webmorph.org/). All faces featured are composite images and any resemblance to actual persons are coincidental. </font>
 </center>
-
-# Professional Memberships
-
-Date(s)                         |Organisation
---------------------------------|---------------------------------------------------------
-2014-2017	                      |British Psychological Society, student member.
-2017-present	                  |British Psychological Society, graduate member.
 
 # Extra Curriculars
 
-**Continuing development plans**: I am currently awaiting word for training on becoming a peer supporter through the university counselling services. I am also awaiting the opening of the inpatient wing of [Kilbryde Hospice](http://kilbrydehospice.org.uk/) to resume volunteering.
-
-Date(s)                         |Organisation/Role
---------------------------------|-----------------------------------------------------
+Date(s)      |Organisation/Role
+-------------|------------------------------------------------------------------------
 29-9-2017                       |European Researchers' Night: Volunteer at Explorathon Extravaganza at the Riverside Museum in Glasgow. 
 2014-2015                       |GU Mature Students Association: Executive committee member (Treasurer).
 2013-2014                       |GU Mature Students Association: Ordinary committee member (memberships and facilities).
 
-<font size="0.5"> Facial morphs created using [WebMorph](http://webmorph.org/). All faces featured are composite images and any resemblance to actual persons are coincidental. </font>
+

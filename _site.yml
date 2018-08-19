@@ -16,6 +16,8 @@ navbar:
       href: index.html
     - text: "Education and Skills"
       href: edu.html
+    - text: "Professional Activity"
+      href: pubs.html
     - text: "Contact Me"
       href: contact.html
 
